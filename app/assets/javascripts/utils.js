@@ -1,3 +1,1 @@
-var formatDate = function(date){
-  return moment(date).format('MMMM Do YYYY, h:mm:ss a');
-}
+var formatDate = (date) => moment(date).format('MMMM Do YYYY, h:mm:ss a');
